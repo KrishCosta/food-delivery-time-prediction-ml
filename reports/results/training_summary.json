@@ -1,0 +1,92 @@
+{
+    "dataset_path": "C:\\Users\\krishantha.costa\\Personal\\Personal\\MSc\\MSc - AML\\Assignment\\food-delivery-project\\data\\Food_Delivery_Times.csv",
+    "dataset_shape": [
+        1000,
+        9
+    ],
+    "modelling_records": 1000,
+    "training_records": 800,
+    "test_records": 200,
+    "model_selection_rule": "Lowest five-fold cross-validation MAE using training data only",
+    "selected_model": "Linear Regression",
+    "selected_parameters": {},
+    "selected_cross_validation_metrics": {
+        "CV MAE": 6.80752672604893,
+        "CV RMSE": 11.058425714730786,
+        "CV R2": 0.7494967022655835
+    },
+    "final_test_metrics": {
+        "Test MAE": 6.063414905264767,
+        "Test RMSE": 8.952170614738876,
+        "Test R2": 0.8212036240893484
+    },
+    "all_model_cross_validation_metrics": [
+        {
+            "CV MAE Rank": 1,
+            "Model": "Linear Regression",
+            "CV MAE": 6.807527,
+            "CV MAE Std": 0.404845,
+            "CV RMSE": 11.058426,
+            "CV RMSE Std": 0.66595,
+            "CV R2": 0.749497,
+            "Training R2": 0.762934,
+            "Best Parameters": "{}"
+        },
+        {
+            "CV MAE Rank": 2,
+            "Model": "Ridge Regression",
+            "CV MAE": 6.80765,
+            "CV MAE Std": 0.404929,
+            "CV RMSE": 11.058243,
+            "CV RMSE Std": 0.666006,
+            "CV R2": 0.749506,
+            "Training R2": 0.762934,
+            "Best Parameters": "{\"alpha\": 0.1}"
+        },
+        {
+            "CV MAE Rank": 3,
+            "Model": "Gradient Boosting",
+            "CV MAE": 7.308052,
+            "CV MAE Std": 0.508648,
+            "CV RMSE": 11.550501,
+            "CV RMSE Std": 0.945549,
+            "CV R2": 0.726026,
+            "Training R2": 0.808777,
+            "Best Parameters": "{\"learning_rate\": 0.1, \"max_depth\": 2, \"n_estimators\": 100}"
+        },
+        {
+            "CV MAE Rank": 4,
+            "Model": "Random Forest",
+            "CV MAE": 7.75177,
+            "CV MAE Std": 0.59434,
+            "CV RMSE": 11.971839,
+            "CV RMSE Std": 0.940927,
+            "CV R2": 0.705329,
+            "Training R2": 0.913624,
+            "Best Parameters": "{\"max_depth\": 12, \"min_samples_leaf\": 2, \"n_estimators\": 100}"
+        },
+        {
+            "CV MAE Rank": 5,
+            "Model": "Decision Tree",
+            "CV MAE": 9.0437,
+            "CV MAE Std": 0.712924,
+            "CV RMSE": 13.139407,
+            "CV RMSE Std": 1.160967,
+            "CV R2": 0.644689,
+            "Training R2": 0.762484,
+            "Best Parameters": "{\"max_depth\": 5, \"min_samples_leaf\": 4}"
+        },
+        {
+            "CV MAE Rank": 6,
+            "Model": "Baseline Mean",
+            "CV MAE": 17.920047,
+            "CV MAE Std": 0.396712,
+            "CV RMSE": 22.290045,
+            "CV RMSE Std": 0.794794,
+            "CV R2": -0.010155,
+            "Training R2": 0.0,
+            "Best Parameters": "{}"
+        }
+    ],
+    "saved_model": "C:\\Users\\krishantha.costa\\Personal\\Personal\\MSc\\MSc - AML\\Assignment\\food-delivery-project\\models\\food_delivery_model.pkl"
+}

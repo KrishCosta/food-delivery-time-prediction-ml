@@ -1,0 +1,10 @@
+Column,Data Type,Non-Null Count,Missing Count
+Order_ID,int64,1000,0
+Distance_km,float64,1000,0
+Weather,str,970,30
+Traffic_Level,str,970,30
+Time_of_Day,str,970,30
+Vehicle_Type,str,1000,0
+Preparation_Time_min,int64,1000,0
+Courier_Experience_yrs,float64,970,30
+Delivery_Time_min,int64,1000,0

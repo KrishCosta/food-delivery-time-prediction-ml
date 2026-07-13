@@ -1,0 +1,7 @@
+Check,Count
+Duplicate complete records,0
+Duplicate Order_ID values,0
+Negative Distance_km values,0
+Negative Preparation_Time_min values,0
+Negative Courier_Experience_yrs values,0
+Non-positive Delivery_Time_min values,0

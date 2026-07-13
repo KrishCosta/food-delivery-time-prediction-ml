@@ -4,9 +4,10 @@ A machine-learning project that predicts food delivery time using distance, traf
 
 ## Project Contents
 
-- `notebooks/food_delivery_model_development.ipynb` — analysis, training, evaluation and feature importance
-- `models/food_delivery_model.pkl` — trained prediction pipeline
-- `requirements.txt` — project dependencies
+- `notebooks/food_delivery_model_development.ipynb` - analysis, training, evaluation and feature importance
+- `models/food_delivery_model.pkl` - trained prediction pipeline
+- `requirements.txt` - project dependencies
+- `app.py` - Streamlit prediction application
 
 ## Models Evaluated
 
@@ -18,3 +19,4 @@ The final model was selected using the lowest five-fold cross-validation MAE and
 
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
